@@ -5,7 +5,7 @@ test("test sum function", () => {
 });
 
 test("Test Example class", () => {
-  const example = new example("Dedy", true);
+  const example = new Example("Dedy", true);
 
   expect(example.name).toBe("Dedy");
 });
